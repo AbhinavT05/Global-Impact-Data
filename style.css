@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e5e5fc;
+    
+}
+
+header {
+    background-color: #011234;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 200px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+ h1 {
+    display: inline;
+    margin: 0;
+    text-shadow: #282c34;
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;   
+}
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.contact-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.members {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.member {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: x-small;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+}
+h3{
+    text-decoration: underline;
+}
+
+

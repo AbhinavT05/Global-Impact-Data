@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Impact Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img69.png" alt="Global Impact Dashboard Logo" class="logo">
+        <h1>Global Impact Dashboard</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#About">About </a></li>
+            <li><a href="#climate">Climate Change</a></li>
+            <li><a href="#covid">COVID-19</a></li>
+            <li><a href="#weather-banglore">Highest-Temp Data</a></li>
+            <li><a href="#Contact-Us">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="climate">
+            <h2>Climate Change</h2>
+            <canvas id="climate-chart" width="600" height="600"></canvas>
+        </section>
+
+        <section id="covid">
+            <h2>COVID-19 Spread</h2>
+            <canvas id="covid-chart" width="600" height="600"></canvas>   
+        </section>
+        <section id="weather-banglore">
+            <h2>Highest-Temp</h2>
+            <canvas id="banglore-highest-weather-chart" width="600" height="600"></canvas>
+        </section>
+
+        <section id="About">
+            <h2>About: </h2>
+            <h3>Overview</h3>
+            <h4><br>Welcome to the Climate,COVID Data Hub and Highest Temperature data of Banglore city, you go-to source for reliable and up-to-date information of the most pressing global issues: climate change,Highest-Temp and the COVID-19 pandemic. Our mission is to provide comprehensive data and insights to help you understand the impact and trends of these critical topics.</h4>
+            <h3>Feature</h3>
+            <h4><li>TEMPERATURE TRENDS: Access historical and current temperature data from around the globe. Our interactive graphs allow you to explore temperature changes over time, identify patterns, and understand the effects of global warming.</li><br>
+            <li>COVID CASE STATISTICS: Stay informed with real-time updates on COVID-19 case numbers, recoveries, and fatalities worldwide. Filter data by country, region, and time period to get a detailed view of the pandemic’s progression.</li><br>
+            <li>HIGHEST-TEMP :Bangalore, known for its pleasant climate, has experienced noticeable changes in temperature patterns over the years. The highest temperature trends in Bangalore provide valuable insights into the impacts of climate change and urbanization on the city’s weather. Understanding these trends is crucial for planning and adaptation strategies to mitigate the effects of rising temperatures.</li></h4>
+            
+        </section>
+
+        <section id="Contact-Us">
+        
+            <div class="contact-container">
+                <h1>Contact Us</h1>
+                <div class="members">
+                    <div class="member">
+                        <h2>Amritanshu kumar</h2>
+                        <p>Email: amritanshukumar2001@gmail.com</p>
+                        <p><a href="http://www.linkedin.com/in/amr1tanshu">Linkedin</a></p>
+                    </div>
+                    <div class="member">
+                        <h2>Abhinav Kumar Tiwary</h2>
+                        <p>Email: abhinavtiwary2005@gmail.com</p>
+                        <p><a href="https://www.linkedin.com/in/akt752">Linkedin</a></p>
+                    </div>
+                    <div class="member">
+                        <h2>Nikhil Kumar</h2>
+                        <p>Email: kumarnikhil1201@gmail.com</p>
+                        <p><a href="https://github.com/kumarNikhil7">Linkedin</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; API(disease.sh/v3/covid-19)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
